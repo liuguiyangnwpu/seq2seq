@@ -4,7 +4,6 @@ from .cells import LSTMDecoderCell, AttentionDecoderCell
 from keras.models import Sequential, Model
 from keras.layers import Dense, Dropout, TimeDistributed, Bidirectional, Input
 
-
 '''
 Papers:
 [1] Sequence to Sequence Learning with Neural Networks (http://arxiv.org/abs/1409.3215)
