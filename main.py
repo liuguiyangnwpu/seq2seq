@@ -1,6 +1,4 @@
-import numpy as np
-import seq2seq
-from seq2seq.models import Seq2Seq, AttentionSeq2Seq
+from seq2seq.models import AttentionSeq2Seq
 from src.dataset import NaskdaqDataGenerator, TimeSeriesNaskdaq
 from keras.callbacks import ModelCheckpoint
 
